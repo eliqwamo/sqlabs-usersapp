@@ -1,0 +1,10 @@
+https://jsonplaceholder.typicode.com/users
+
+const baseUrl = "https://jsonplaceholder.typicode.com"
+
+
+const url = baseUrl + '/users;
+
+router.get('/users, (req,res) =>{
+    return res.users;
+})
